@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="/weather.css">
+</head>
+<body>
+    <script src="/weather.js"></script>
+    <div class="header">
+        <h1>WEATHERTASTIC-The Weather App</h1>
+        <div>
+            <input type="text" name="" id="input" placeholder="Enter city name">
+            <button id="search" onclick="searchByCity()">Search</button></input>
+        </div>
+    </div>
+
+    <main>        
+        <div class="weather">
+            <h2 id="city">Delhi,IN</h2>
+            <p class="date">Sat, Jun 10 ,2023</p>
+            <div class="temp-box">
+                <img src="https://img.freepik.com/premium-vector/3d-cartoon-icon-weather-forecast-mostly-sunny-vector-illustration_595345-44.jpg?w=2000" alt="" id="img">
+                <p id="temperature">33 °C</p>
+            </div>
+            <span id="clouds">Sunny</span>
+            <br><br><br>
+            <div class="windbox">
+                <img src="https://cdn-icons-png.flaticon.com/512/1164/1164960.png?w=740&t=st=1686378945~exp=1686379545~hmac=1fdc005de3346f3cdfa9da73960900c52addf86d44e57d7043f4a4f817d232dc" alt="" id="img" style="width: 50px;height: 50px;">
+                <p>Wind Speed</p>
+                <p id='wind'>8 km/hr</p>
+            </div>
+        </div>
+
+        <div class="divider1"></div>
+
+        <div class="forecstH">
+            <p class="cast-header">Upcoming forecast</p>
+            <div class="templist">
+
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>35 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 °C </p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 °C </p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>29 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="forecstD">
+        <div class="divider2"></div>
+        <p class="cast-header">Weather Forecast for next 5 days</p>
+        <div class="weekF">
+
+            <div class="dayF">
+                <p class="date">Sun ,Jun 11, 2023</p>
+                <p>31 °C </p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun, Jun 11, 2023</p>
+                <p>31 °C </p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun, Jun 11, 2023</p>
+                <p>31 °C </p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun, Jun 11, 2023</p>
+                <p>31 °C </p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun ,Jun 11, 2023</p>
+                <p>31 °C </p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+
+            
+        </div>
+    </div>
+
+</body>
+</html>
